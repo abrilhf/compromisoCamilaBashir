@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    height: 833px;
+    width: 103%;
+}
+
+.titulo > h1{
+    font-family: 'Noto Serif Hebrew', serif;
+    font-weight: 300;
+    font-size: 37px;
+    margin-left: 28px;
+    padding-top: 24px;
+    color: #755B5D;
+}
+
+.titulo > h1 > .deco > span{
+    font-family: 'Noto Serif Hebrew', serif;
+    font-weight: 200;
+}
+
+.titulo > h1 > .deco{
+  display: flex;
+  align-items: center;
+}
+
+section {
+  width: 103%;
+}
+
+.titulo > h1 > .deco .linea {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.titulo > .fotoVector {
+  background-color: black;
+  width: 1px;
+  height: 150px;
+  margin-left: 44px;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.iniciales > h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 84px;
+  color: #A68F72;
+  margin-left: 20px;
+}
+
+.iniciales > p {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 78px;
+  color: #A68F72;
+
+}
+
+.text-flowers{
+  margin-top: 44px;
+}
+
+.iniciales > .text-flowers > .texto {
+  font-family: 'Noto Serif Hebrew', serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iniciales > .bashir{
+  text-align: right;
+  margin-right: 20px;
+
+}
+/* 
+.iniciales{
+  background-image: url(../../img/pintitas.svg);
+  background-repeat: no-repeat;
+  background-size: 117px;
+  background-position: left;
+  background-position-x: -23px;
+  background-position-y: -32px;
+} */
+
+.contador > .flowers-text{
+  width: 100%;
+}
+
+.iniciales > .text-flowers > .flowers-text,
+.contador > .flowers-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoEvento{
+  margin-top: 4%;
+  margin-bottom: -18%;
+}
+
+
+.infoEvento > .container > .row > .col{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infoEvento > .container{
+  background-image: url(../../img/pintitas.svg);
+  background-repeat: no-repeat;
+  background-size: 154px;
+  background-position: right;
+}
+
+
+.infoEvento > .container > .container > .row > .col > .personas {
+  display: flex;
+}
+
+.infoEvento > .container > .row > .col > h2{
+  font-family: 'Great Vibes', cursive;
+  font-size: 54px;
+  margin-top: 18px;
+  color: #755B5D;
+}
+
+.infoEvento > .container > .row > .col > p,
+.ubicacion > p{
+  font-family: 'Noto Serif Hebrew', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+ion-icon {
+  font-size: 54px;
+    --ionicon-stroke-width: 10px;
+  color: #574b3b;
+}
+
+.infoEvento > .container > .row > .col:first-child{
+  border-right: 1px solid;
+}
+
+.infoEvento > .container > .row > .col > .horario{
+  padding-left: 12px;
+}
+
+.infoEvento > .container > .row{
+  width: 100%;
+}
+
+.infoEvento > .container > .row > .col:nth-child(2){
+  margin-left: 5px;
+}
+
+.infoEvento > .container > .row > .col:nth-child(3){
+  margin-top: 23px;
+}
+
+.ubicacion {
+  text-align: center;
+}
+
+.ubicacion > h2{
+  font-family: 'Great Vibes', cursive;
+  font-size: 54px;
+  color: #755B5D;
+}
+
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10%;
+  background-image: url(../../img/rama-contador-horas.svg);
+  background-repeat: no-repeat;
+  background-size: 215px;
+  background-position: left;
+  background-position-x: -77px;
+  background-position-y: 354px;
+}
+
+.contador > .dates,
+.contador > div > p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 74px;
+  color: #A68F72;
+  text-align: center;
+}
+
+.contador > .timer {
+  font-family: 'Great Vibes', cursive;
+  font-size: 88px;
+  color: #755B5D;
+}
+
+.confirmarAsis > p{
+  text-align: center;
+  font-family: 'Noto Serif Hebrew', serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.confirmarAsis > p > span{
+  font-weight: 900;
+  color: #755B5D;
+}
+
+.confirmarAsis > button {
+  background-color: #755B5D;
+  color: white;
+  margin-top: 50px;
+  border: none;
+}
+
+.confirmarAsis{
+  padding-bottom: 50px;
+}
